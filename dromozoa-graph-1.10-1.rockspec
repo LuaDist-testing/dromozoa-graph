@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "dromozoa-graph"
-version = "1.9-1"
+version = "1.10-1"
 -- LuaDist source
 source = {
-  tag = "1.9-1",
+  tag = "1.10-1",
   url = "git://github.com/LuaDist-testing/dromozoa-graph.git"
 }
 -- Original source
 -- source = {
---   url = "https://github.com/dromozoa/dromozoa-graph/archive/v1.9.tar.gz";
---   file = "dromozoa-graph-1.9.tar.gz";
+--   url = "https://github.com/dromozoa/dromozoa-graph/archive/v1.10.tar.gz";
+--   file = "dromozoa-graph-1.10.tar.gz";
 -- }
 description = {
   summary = "Graph data structures and algorithms";
@@ -34,6 +34,7 @@ build = {
     ["dromozoa.graph.edges"] = "dromozoa/graph/edges.lua";
     ["dromozoa.graph.graphviz"] = "dromozoa/graph/graphviz.lua";
     ["dromozoa.graph.graphviz_attributes_adapter"] = "dromozoa/graph/graphviz_attributes_adapter.lua";
+    ["dromozoa.graph.merge"] = "dromozoa/graph/merge.lua";
     ["dromozoa.graph.properties"] = "dromozoa/graph/properties.lua";
     ["dromozoa.graph.tsort"] = "dromozoa/graph/tsort.lua";
     ["dromozoa.graph.vertex"] = "dromozoa/graph/vertex.lua";
