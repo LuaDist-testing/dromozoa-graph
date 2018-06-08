@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "dromozoa-graph"
-version = "1.3-1"
+version = "1.4-1"
 -- LuaDist source
 source = {
-  tag = "1.3-1",
+  tag = "1.4-1",
   url = "git://github.com/LuaDist-testing/dromozoa-graph.git"
 }
 -- Original source
 -- source = {
---   url = "https://github.com/dromozoa/dromozoa-graph/archive/v1.3.tar.gz";
---   file = "dromozoa-graph-1.3.tar.gz";
+--   url = "https://github.com/dromozoa/dromozoa-graph/archive/v1.4.tar.gz";
+--   file = "dromozoa-graph-1.4.tar.gz";
 -- }
 description = {
   summary = "Graph data structures and algorithms";
@@ -25,6 +25,7 @@ build = {
     ["dromozoa.graph.adjacency_list"] = "dromozoa/graph/adjacency_list.lua";
     ["dromozoa.graph.bfs"] = "dromozoa/graph/bfs.lua";
     ["dromozoa.graph.bfs_visitor"] = "dromozoa/graph/bfs_visitor.lua";
+    ["dromozoa.graph.clone"] = "dromozoa/graph/clone.lua";
     ["dromozoa.graph.dfs"] = "dromozoa/graph/dfs.lua";
     ["dromozoa.graph.dfs_visitor"] = "dromozoa/graph/dfs_visitor.lua";
     ["dromozoa.graph.edge"] = "dromozoa/graph/edge.lua";
