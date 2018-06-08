@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "dromozoa-graph"
-version = "1.25-1"
+version = "1.26-1"
 -- LuaDist source
 source = {
-  tag = "1.25-1",
+  tag = "1.26-1",
   url = "git://github.com/LuaDist-testing/dromozoa-graph.git"
 }
 -- Original source
 -- source = {
---   url = "https://github.com/dromozoa/dromozoa-graph/archive/v1.25.tar.gz";
---   file = "dromozoa-graph-1.25.tar.gz";
+--   url = "https://github.com/dromozoa/dromozoa-graph/archive/v1.26.tar.gz";
+--   file = "dromozoa-graph-1.26.tar.gz";
 -- }
 description = {
   summary = "Graph data structures and algorithms";
