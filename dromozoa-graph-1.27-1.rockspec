@@ -1,25 +1,22 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "dromozoa-graph"
-version = "1.26-1"
+version = "1.27-1"
 -- LuaDist source
 source = {
-  tag = "1.26-1",
+  tag = "1.27-1",
   url = "git://github.com/LuaDist-testing/dromozoa-graph.git"
 }
 -- Original source
 -- source = {
---   url = "https://github.com/dromozoa/dromozoa-graph/archive/v1.26.tar.gz";
---   file = "dromozoa-graph-1.26.tar.gz";
+--   url = "https://github.com/dromozoa/dromozoa-graph/archive/v1.27.tar.gz";
+--   file = "dromozoa-graph-1.27.tar.gz";
 -- }
 description = {
   summary = "Graph data structures and algorithms";
   license = "GPL-3";
   homepage = "https://github.com/dromozoa/dromozoa-graph/";
   maintainer = "Tomoyuki Fujimori <moyu@dromozoa.com>";
-}
-dependencies = {
-  "dromozoa-commons";
 }
 build = {
   type = "builtin";
@@ -28,11 +25,13 @@ build = {
     ["dromozoa.graph.adjacency_list"] = "dromozoa/graph/adjacency_list.lua";
     ["dromozoa.graph.binary_heap"] = "dromozoa/graph/binary_heap.lua";
     ["dromozoa.graph.brandes_kopf"] = "dromozoa/graph/brandes_kopf.lua";
+    ["dromozoa.graph.count_crossings"] = "dromozoa/graph/count_crossings.lua";
     ["dromozoa.graph.layout"] = "dromozoa/graph/layout.lua";
     ["dromozoa.graph.linked_list"] = "dromozoa/graph/linked_list.lua";
     ["dromozoa.graph.longest_path"] = "dromozoa/graph/longest_path.lua";
     ["dromozoa.graph.make_dummy_vertices"] = "dromozoa/graph/make_dummy_vertices.lua";
     ["dromozoa.graph.make_layers"] = "dromozoa/graph/make_layers.lua";
+    ["dromozoa.graph.minimize_crossings"] = "dromozoa/graph/minimize_crossings.lua";
     ["dromozoa.graph.promote_vertices"] = "dromozoa/graph/promote_vertices.lua";
     ["dromozoa.graph.remove_cycles"] = "dromozoa/graph/remove_cycles.lua";
     ["dromozoa.graph.remove_self_edges"] = "dromozoa/graph/remove_self_edges.lua";
